@@ -2,7 +2,7 @@
 
 A pure static mini web app (no build step, no framework) that generates static QR codes entirely in the browser.
 
-**Live URL:** https://__SITE_URL__/ (replace after first deploy)
+**Live URL:** https://qrforge-tool.vercel.app/ (replace after first deploy)
 
 ## Features
 
@@ -35,7 +35,7 @@ Then open the printed localhost URL. `cleanUrls` is handled by Vercel in product
 Deploy the folder as a static site on Vercel (`vercel.json` is included). After the first deploy, replace the placeholder domain everywhere:
 
 ```bash
-sed -i 's/__SITE_URL__/your-domain.vercel.app/g' index.html privacy.html terms.html robots.txt sitemap.xml config.js
+sed -i 's/qrforge-tool.vercel.app/your-domain.vercel.app/g' index.html privacy.html terms.html robots.txt sitemap.xml config.js
 ```
 
 ## Monetization setup
