@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR Code for Google Reviews – Free Generator for Your Review Link | QRForge</title>
+  <meta name="description" content="Create a free QR code for Google reviews. Find your Google Business review link, generate a branded code and print it at the counter or on receipts.">
+  <link rel="canonical" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="QR Code for Google Reviews – Free Generator for Your Review Link | QRForge">
+  <meta property="og:description" content="Create a free QR code for Google reviews. Find your Google Business review link, generate a branded code and print it at the counter or on receipts.">
+  <meta property="og:url" content="https://qrforge-tool.vercel.app/qr-code-for-google-reviews">
+  <meta property="og:site_name" content="QRForge">
+  <meta property="og:image" content="https://qrforge-tool.vercel.app/favicon.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="QR Code for Google Reviews – Free Generator for Your Review Link | QRForge">
+  <meta name="twitter:description" content="Create a free QR code for Google reviews. Find your Google Business review link, generate a branded code and print it at the counter or on receipts.">
+  <meta name="twitter:image" content="https://qrforge-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#0b0f17">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script src="/config.js"></script>
+  <script src="/monetize.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"QR Code for Google Reviews – Free Generator for Your Review Link | QRForge","description":"Create a free QR code for Google reviews. Find your Google Business review link, generate a branded code and print it at the counter or on receipts.","url":"https://qrforge-tool.vercel.app/qr-code-for-google-reviews","isPartOf":{"@type":"WebSite","name":"QRForge","url":"https://qrforge-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QRForge","item":"https://qrforge-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"QR Code for Google Reviews","item":"https://qrforge-tool.vercel.app/qr-code-for-google-reviews"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does the QR code work if the customer isn't logged in to Google?","acceptedAnswer":{"@type":"Answer","text":"The link opens the review form; if they are not signed in, Google asks them to sign in first and then returns them to the review. Most phones are already signed in."}},{"@type":"Question","name":"Will the review link change?","acceptedAnswer":{"@type":"Answer","text":"The g.page review link stays the same for your Business Profile unless you create a new listing. Avoid longer Maps URLs, which Google reformats from time to time."}},{"@type":"Question","name":"Can I offer a discount for scanning?","acceptedAnswer":{"@type":"Answer","text":"You can thank customers, but Google's policy forbids rewarding reviews with discounts or gifts. Violations can get reviews removed or the profile suspended."}},{"@type":"Question","name":"Can I put my logo on the review QR code?","acceptedAnswer":{"@type":"Answer","text":"Yes. The logo overlay is part of the one-time Pro upgrade. Error correction is raised to H automatically so the code scans reliably with the logo in place."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="QRForge home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QRForge</span><span class="brand-desc">QR code generator</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
+      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+  <section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · QR codes · Google reviews</span>
+  <h1>QR Code for Google Reviews</h1>
+  <p class="tagline">Take customers straight to the review form while they are still happy and standing in your shop.</p>
+  <div class="badges">
+  <span class="badge">100% free</span>
+  <span class="badge">No sign-up</span>
+  <span class="badge">Never expires</span>
+  <span class="badge">No watermark</span>
+  <span class="badge">Works in your browser</span>
+  </div>
+</section>
+
+  <main class="container">
+    <div class="tool-layout">
+      <div class="tool-main">
+        <div class="qr-workspace">
+          <div class="qr-controls">
+            <!-- Content -->
+            <section class="card" aria-labelledby="contentHeading">
+              <h2 id="contentHeading" class="card-title">1. Content</h2>
+              <div class="type-tabs" role="tablist" aria-label="QR content type">
+                <button class="type-tab active" role="tab" data-type="url" aria-selected="true" aria-controls="panel-url">URL</button>
+                <button class="type-tab" role="tab" data-type="text" aria-selected="false" aria-controls="panel-text">Text</button>
+                <button class="type-tab" role="tab" data-type="wifi" aria-selected="false" aria-controls="panel-wifi">Wi-Fi</button>
+                <button class="type-tab" role="tab" data-type="email" aria-selected="false" aria-controls="panel-email">Email</button>
+                <button class="type-tab" role="tab" data-type="phone" aria-selected="false" aria-controls="panel-phone">Phone</button>
+                <button class="type-tab" role="tab" data-type="sms" aria-selected="false" aria-controls="panel-sms">SMS</button>
+                <button class="type-tab" role="tab" data-type="vcard" aria-selected="false" aria-controls="panel-vcard">vCard</button>
+              </div>
+
+              <div class="type-panel" id="panel-url" role="tabpanel" data-panel="url">
+                <div class="field">
+                  <label for="inUrl">Website URL</label>
+                  <input id="inUrl" type="url" inputmode="url" placeholder="https://example.com" value="https://example.com" autocomplete="off" spellcheck="false">
+                  <p class="hint">Include https:// so phones open it directly in the browser.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-text" role="tabpanel" data-panel="text">
+                <div class="field">
+                  <label for="inText">Plain text</label>
+                  <textarea id="inText" rows="4" placeholder="Any text: a message, a serial number, a coupon code…">Thanks for scanning! Enjoy 10% off with code SCAN10.</textarea>
+                  <p class="hint">Shorter text produces a simpler code that scans faster.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-wifi" role="tabpanel" data-panel="wifi">
+                <div class="grid-2">
+                  <div class="field">
+                    <label for="wifiSsid">Network name (SSID)</label>
+                    <input id="wifiSsid" type="text" placeholder="MyHomeWiFi" value="GuestWiFi" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="wifiPass">Password</label>
+                    <input id="wifiPass" type="text" placeholder="Password" value="welcome2024" autocomplete="off" spellcheck="false">
+                  </div>
+                  <div class="field">
+                    <label for="wifiEnc">Encryption</label>
+                    <select id="wifiEnc">
+                      <option value="WPA" selected>WPA / WPA2 / WPA3</option>
+                      <option value="WEP">WEP</option>
+                      <option value="nopass">None (open network)</option>
+                    </select>
+                  </div>
+                  <div class="field field-check">
+                    <label class="checkbox"><input id="wifiHidden" type="checkbox"> Hidden network</label>
+                  </div>
+                </div>
+                <p class="hint">Guests scan the code and join instantly, no typing the password.</p>
+              </div>
+
+              <div class="type-panel hidden" id="panel-email" role="tabpanel" data-panel="email">
+                <div class="field">
+                  <label for="emailTo">Recipient email</label>
+                  <input id="emailTo" type="email" inputmode="email" placeholder="hello@example.com" value="hello@example.com" autocomplete="off">
+                </div>
+                <div class="field">
+                  <label for="emailSubject">Subject (optional)</label>
+                  <input id="emailSubject" type="text" placeholder="Subject" value="Question about your services">
+                </div>
+                <div class="field">
+                  <label for="emailBody">Message (optional)</label>
+                  <textarea id="emailBody" rows="3" placeholder="Pre-filled message body">Hi, I scanned your QR code and would like to know more.</textarea>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-phone" role="tabpanel" data-panel="phone">
+                <div class="field">
+                  <label for="phoneNum">Phone number</label>
+                  <input id="phoneNum" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 123 4567" autocomplete="off">
+                  <p class="hint">Use the international format (+country code) so it works abroad.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-sms" role="tabpanel" data-panel="sms">
+                <div class="field">
+                  <label for="smsNum">Phone number</label>
+                  <input id="smsNum" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 123 4567" autocomplete="off">
+                </div>
+                <div class="field">
+                  <label for="smsMsg">Message (optional)</label>
+                  <textarea id="smsMsg" rows="3" placeholder="Pre-filled text message">Hi! I'd like to book an appointment.</textarea>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-vcard" role="tabpanel" data-panel="vcard">
+                <div class="grid-2">
+                  <div class="field">
+                    <label for="vcName">Full name</label>
+                    <input id="vcName" type="text" placeholder="Jane Doe" value="Jane Doe" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcPhone">Phone</label>
+                    <input id="vcPhone" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 987 6543" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcEmail">Email</label>
+                    <input id="vcEmail" type="email" inputmode="email" placeholder="jane@example.com" value="jane@example.com" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcOrg">Company (optional)</label>
+                    <input id="vcOrg" type="text" placeholder="Acme Inc." value="Acme Inc." autocomplete="off">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="vcUrl">Website (optional)</label>
+                  <input id="vcUrl" type="url" inputmode="url" placeholder="https://example.com" value="https://example.com" autocomplete="off" spellcheck="false">
+                </div>
+                <p class="hint">Scanning opens "Add contact" with all fields pre-filled (vCard 3.0).</p>
+              </div>
+            </section>
+
+            <!-- Design -->
+            <section class="card" aria-labelledby="designHeading">
+              <h2 id="designHeading" class="card-title">2. Design</h2>
+              <div class="grid-2">
+                <div class="field">
+                  <label for="fgColor">Foreground color</label>
+                  <div class="color-row">
+                    <input id="fgColor" type="color" value="#0b0f17" aria-label="Foreground color picker">
+                    <input id="fgHex" type="text" value="#0b0f17" maxlength="7" aria-label="Foreground color hex" spellcheck="false">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="bgColor">Background color</label>
+                  <div class="color-row">
+                    <input id="bgColor" type="color" value="#ffffff" aria-label="Background color picker">
+                    <input id="bgHex" type="text" value="#ffffff" maxlength="7" aria-label="Background color hex" spellcheck="false">
+                  </div>
+                  <label class="checkbox" style="margin-top:8px"><input id="transparentBg" type="checkbox"> Transparent background</label>
+                </div>
+              </div>
+              <div class="grid-2">
+                <div class="field">
+                  <label for="moduleStyle">Module style</label>
+                  <select id="moduleStyle">
+                    <option value="square" selected>Square (classic)</option>
+                    <option value="rounded">Rounded</option>
+                    <option value="dots">Dots</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="ecLevel">Error correction</label>
+                  <select id="ecLevel">
+                    <option value="L">L – 7% recovery (smallest)</option>
+                    <option value="M" selected>M – 15% recovery (recommended)</option>
+                    <option value="Q">Q – 25% recovery</option>
+                    <option value="H">H – 30% recovery (for logos)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <div class="row-between">
+                  <label for="sizeRange" style="margin:0">Export size</label>
+                  <span class="range-val"><span id="sizeValue">600</span> px</span>
+                </div>
+                <input id="sizeRange" type="range" min="200" max="1000" step="50" value="600">
+                <p class="hint" id="sizeMaxHint">Free up to 1000px · <a href="#" onclick="openPro('size');return false">Pro unlocks 4000px</a></p>
+              </div>
+              <div class="field">
+                <div class="row-between">
+                  <label for="marginRange" style="margin:0">Margin (quiet zone)</label>
+                  <span class="range-val"><span id="marginValue">4</span> modules</span>
+                </div>
+                <input id="marginRange" type="range" min="0" max="8" step="1" value="4">
+              </div>
+              <div class="field logo-field">
+                <label for="logoBtn">Center logo <span class="pro-badge">PRO</span></label>
+                <div class="row">
+                  <button class="btn" id="logoBtn" type="button">Upload logo</button>
+                  <input id="logoInput" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" class="sr-only" tabindex="-1" aria-hidden="true">
+                  <span class="hint" id="logoName" style="margin:0">No logo</span>
+                  <button class="btn btn-sm btn-ghost hidden" id="logoRemove" type="button" aria-label="Remove logo">Remove</button>
+                </div>
+                <p class="hint">PNG, JPG, SVG or WebP. Error correction switches to H automatically.</p>
+              </div>
+            </section>
+
+            <!-- Batch (Pro) -->
+            <section class="card" aria-labelledby="batchHeading">
+              <h2 id="batchHeading" class="card-title">Batch generate <span class="pro-badge">PRO</span></h2>
+              <div class="field">
+                <label for="batchInput">One URL or text per line</label>
+                <textarea id="batchInput" rows="4" placeholder="https://example.com/product/1&#10;https://example.com/product/2&#10;Table 12"></textarea>
+                <p class="hint">Each line becomes a PNG using the current design settings and is downloaded automatically.</p>
+              </div>
+              <div class="row-between">
+                <button class="btn btn-primary" id="btnBatch" type="button">Generate all</button>
+                <span class="hint" id="batchStatus" style="margin:0"></span>
+              </div>
+            </section>
+          </div>
+
+          <!-- Preview -->
+          <div class="qr-preview-col">
+            <section class="card preview-card" aria-labelledby="previewHeading">
+              <h2 id="previewHeading" class="card-title">Preview</h2>
+              <div class="canvas-wrap" id="canvasWrap">
+                <canvas id="qrCanvas" width="600" height="600" role="img" aria-label="Generated QR code preview"></canvas>
+              </div>
+              <p class="qr-meta" id="qrMeta"></p>
+              <p class="scan-hint" id="scanHint" role="status"></p>
+              <div class="actions">
+                <button class="btn btn-primary btn-block" id="btnPng" type="button">⬇ Download PNG</button>
+                <div class="grid-2 tight">
+                  <button class="btn" id="btnSvg" type="button">Download SVG <span class="pro-badge">PRO</span></button>
+                  <button class="btn" id="btnCopyImg" type="button">Copy image</button>
+                </div>
+              </div>
+              <div class="encoded">
+                <div class="row-between">
+                  <label for="encodedContent" style="margin:0">Encoded content</label>
+                  <button class="btn btn-sm btn-ghost" id="btnCopyContent" type="button">Copy</button>
+                </div>
+                <pre id="encodedContent" tabindex="0"></pre>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="ad-slot horizontal" data-slot="below-tool"></div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="ad-slot" data-slot="sidebar-1"></div>
+        <div class="card pro-card">
+          <h3>Go Pro <span class="pro-badge">LIFETIME</span></h3>
+          <ul>
+            <li>Add your logo to the center</li>
+            <li>SVG vector download</li>
+            <li>High-res export up to 4000px</li>
+            <li>Batch generate from a list</li>
+          </ul>
+          <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price></span> once</button>
+        </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>QR ideas that convert</h3>
+        <p class="hint">Practical QR marketing ideas, print tips and new free tools, once or twice a month.</p>
+        <form class="lead-form" onsubmit="return subscribeNewsletter(event)">
+          <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <p class="hint tiny">No spam. Unsubscribe anytime.</p>
+      </div>
+        <div class="ad-slot" data-slot="sidebar-2"></div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">More ways to use QRForge</h2>
+  <ul class="uses-grid">
+      <li><a href="/qr-code-for-wifi">QR Code for Wi-Fi</a></li>
+      <li><a href="/qr-code-for-restaurant-menu">QR Code for a Restaurant Menu</a></li>
+      <li><a href="/qr-code-for-business-card">QR Code for a Business Card</a></li>
+      <li><a href="/qr-code-for-google-reviews" class="current" aria-current="page">QR Code for Google Reviews</a></li>
+      <li><a href="/qr-code-for-instagram">QR Code for Instagram</a></li>
+      <li><a href="/qr-code-for-wedding-invitations">QR Code for Wedding Invitations</a></li>
+      <li><a href="/qr-code-for-youtube-video">QR Code for a YouTube Video</a></li>
+      <li><a href="/qr-code-for-pdf">QR Code for a PDF</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <p class="breadcrumb"><a href="/">QRForge</a> › QR Code for Google Reviews</p>
+  <h2>QR Code for Google Reviews: how it works</h2>
+  <p>Customers who say "I'd happily leave a review" rarely do, because finding your business on Google and locating the Write a review button takes six taps they forget by the car. A QR code that opens the review form directly removes every step except the stars. Businesses that put one at the till, on the invoice or on a table card see a steady increase in reviews within weeks.</p><p>QRForge makes the code free in your browser. Paste your review link, pick your colours and download a PNG for print.</p>
+  <h2>Finding your Google review link</h2>
+  <p>You need the link that opens the review dialog, not your general Maps listing. To get it:</p><ol><li>Sign in to your <strong>Google Business Profile</strong> (search your business name on Google while logged in as the owner, or go to business.google.com).</li><li>Open the profile, choose <strong>Ask for reviews</strong> (sometimes shown as "Get more reviews").</li><li>Copy the short link, which looks like <em>g.page/r/XXXXXXXX/review</em>.</li></ol><p>Paste that into the URL tab of QRForge with https:// in front. Scan the preview and confirm it opens the review box with your business name and five empty stars. If it opens the Maps listing instead, you copied the listing URL, not the review link.</p><p>Do not use a Google Maps link with a search query; those break when Google changes its URL format, whereas the g.page review link is stable.</p>
+  <h2>Where to place it and what Google allows</h2>
+  <p>The best moment to ask is right after a good experience: the counter, the receipt, the thank-you card in a delivery box, the back of a service van invoice, the mirror at a salon station. Add a caption such as "Enjoyed your visit? Scan to leave a Google review – it takes 30 seconds".</p><p>Two rules keep your listing safe. Google's policy prohibits offering money, discounts or gifts in exchange for reviews, and it prohibits "review gating" (asking happy customers only). A code that everyone can scan is fine; a code hidden until someone says something nice is not. Keep the code at 3 cm or more for counter cards and use high-contrast colours; your brand colour on white is fine, light grey on white is not.</p>
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    <details><summary>Does the QR code work if the customer isn't logged in to Google?</summary><p>The link opens the review form; if they are not signed in, Google asks them to sign in first and then returns them to the review. Most phones are already signed in.</p></details>
+    <details><summary>Will the review link change?</summary><p>The g.page review link stays the same for your Business Profile unless you create a new listing. Avoid longer Maps URLs, which Google reformats from time to time.</p></details>
+    <details><summary>Can I offer a discount for scanning?</summary><p>You can thank customers, but Google's policy forbids rewarding reviews with discounts or gifts. Violations can get reviews removed or the profile suspended.</p></details>
+    <details><summary>Can I put my logo on the review QR code?</summary><p>Yes. The logo overlay is part of the one-time Pro upgrade. Error correction is raised to H automatically so the code scans reliably with the logo in place.</p></details>
+  </div>
+  <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main QRForge page</a>.</p>
+</section>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. QRForge is the qr code generator of the family, built and maintained by Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app" class="current">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QRForge. Free QR code generator. Codes never expire.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+  <div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+    <div class="card">
+      <button class="btn btn-sm close" onclick="closePro()" aria-label="Close">✕</button>
+      <h3 id="proTitle">Upgrade to QRForge Pro <span class="pro-badge">LIFETIME</span></h3>
+      <div class="price"><span id="proPrice"></span> <small>one-time</small></div>
+      <ul>
+        <li>Add your logo to the center of the code</li>
+        <li>SVG vector download</li>
+        <li>4000px high-res export</li>
+        <li>Batch generate from a list</li>
+        <li>Lifetime updates</li>
+      </ul>
+      <button class="btn btn-primary btn-block" onclick="goCheckout()">Get Pro</button>
+      <p class="hint" style="margin-top:12px">Already purchased? <a href="#" onclick="document.getElementById('licenseRow').classList.toggle('hidden');return false">Enter license key</a></p>
+      <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key" aria-label="License key"><button class="btn" onclick="activateLicense(document.getElementById('licenseKey').value)">Activate</button></div>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
