@@ -18,6 +18,9 @@
   <meta name="twitter:image" content="https://qrforge-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#0b0f17">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">
   {
@@ -77,26 +80,31 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <a class="brand" href="/" aria-label="QRForge home"><span class="logo">QR</span> QRForge</a>
-      <nav class="nav" aria-label="Main">
-        <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
-        <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+    <a class="brand" href="/" aria-label="QRForge home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QRForge</span><span class="brand-desc">QR code generator</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
+      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
 
   <section class="hero container">
-    <h1>Free QR Code Generator</h1>
-    <p>Create custom QR codes for links, Wi-Fi, contacts, email and more. Pick your colors and style, add a logo, and download a crisp PNG or SVG. Everything runs in your browser.</p>
-    <div class="badges">
-      <span class="badge">100% free</span>
-      <span class="badge">No sign-up</span>
-      <span class="badge">Never expires</span>
-      <span class="badge">No watermark</span>
-      <span class="badge">Works in your browser</span>
-    </div>
-  </section>
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · QR codes</span>
+  <h1>Free QR Code Generator</h1>
+  <p class="tagline">Turn a link, Wi-Fi network, contact card or text into a custom QR code with your colors and logo, then download it as PNG or SVG.</p>
+  <div class="badges">
+  <span class="badge">100% free</span>
+  <span class="badge">No sign-up</span>
+  <span class="badge">Never expires</span>
+  <span class="badge">No watermark</span>
+  <span class="badge">Works in your browser</span>
+  </div>
+</section>
 
   <main class="container">
     <div class="tool-layout">
@@ -412,12 +420,31 @@
   </section>
 
   <footer class="site-footer">
-    <div class="container">
-      <span>© <span data-year></span> QRForge · Free QR code generator</span>
-      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
-      <span>Made with ❤️ for makers</span>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. QRForge is the qr code generator of the family, built and maintained by Be Management.</p>
+      </div>
     </div>
-  </footer>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app" class="current">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QRForge. Free QR code generator. Codes never expire.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
+  </div>
+</footer>
 
   <div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
     <div class="card">

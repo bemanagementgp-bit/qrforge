@@ -39,7 +39,7 @@
   const state = {
     type: 'url',
     fields: {},
-    fg: '#0b0f17', bg: '#ffffff', transparent: false,
+    fg: '#1a1208', bg: '#ffffff', transparent: false,
     style: 'square', ec: 'M', size: 600, margin: 4
   };
   // Logo is kept in memory only (never persisted – could be large).

@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="theme-color" content="#f97316">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Terms of Use – QRForge</title>
   <meta name="description" content="Terms of use for the QRForge free QR code generator: ownership of generated codes, acceptable use, Pro license and limitation of liability.">
   <link rel="canonical" href="https://qrforge-tool.vercel.app/terms">
   <meta name="robots" content="noindex, follow">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <a class="brand" href="/" aria-label="QRForge home"><span class="logo">QR</span> QRForge</a>
-      <nav class="nav" aria-label="Main">
-        <a class="btn btn-sm" href="/">← Back to the tool</a>
-        <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+    <a class="brand" href="/" aria-label="QRForge home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QRForge</span><span class="brand-desc">QR code generator</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
+      <a class="btn btn-sm" href="/">← Back to the tool</a>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
 
   <main class="container legal">
     <h1>Terms of Use</h1>
@@ -50,11 +58,30 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <span>© <span data-year></span> QRForge · Free QR code generator</span>
-      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
-      <span>Made with ❤️ for makers</span>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. QRForge is the qr code generator of the family, built and maintained by Be Management.</p>
+      </div>
     </div>
-  </footer>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app" class="current">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QRForge. Free QR code generator. Codes never expire.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
