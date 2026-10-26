@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "qr-code-for-wifi",
+    "keyword": "qr code for wifi",
+    "title": "Free Wi-Fi QR Code Generator – Guests Connect Without Typing | QRForge",
+    "description": "Create a free QR code for your Wi-Fi network. Enter the SSID, password and encryption type, download a PNG and let guests join by scanning. Runs in your browser, nothing uploaded.",
+    "eyebrow": "QR codes · Wi-Fi",
+    "h1": "QR Code for Wi-Fi",
+    "tagline": "Turn your network name and password into a code guests scan to connect instantly, with no typing and no spelling mistakes.",
+    "intro": "<p>Reading a 16-character password off the back of a router is the worst part of visiting anyone. A Wi-Fi QR code encodes the network name, password and security type in a format that iPhone and Android cameras recognise natively: scan, tap \"Join\", done. It works for home guests, Airbnb listings, cafés, waiting rooms and offices with a visitor network.</p><p>QRForge generates the code in your browser for free. The password is encoded into the image on your device and never sent anywhere, which matters when the thing you are encoding is a password.</p>",
+    "sections": [
+      {
+        "h2": "How to make a Wi-Fi QR code that actually connects",
+        "html": "<p>Pick the Wi-Fi tab and fill in three things exactly as the router has them:</p><ul><li><strong>Network name (SSID)</strong> – case-sensitive, including spaces. \"Smith Family\" and \"smith family\" are different networks.</li><li><strong>Password</strong> – copy it rather than retyping. A single wrong character produces a code that scans fine but fails to connect, which is harder to debug than a code that does not scan.</li><li><strong>Encryption</strong> – almost every modern router uses WPA2 or WPA3; choose the WPA option. Pick WEP only for very old hardware, and None for an open network.</li></ul><p>Tick <strong>Hidden network</strong> only if you disabled SSID broadcast on the router. Then test the code on both an iPhone and an Android phone before printing it; the native camera app on each should offer to join the network. If you are on a dual-band router with separate 2.4 GHz and 5 GHz names, make a code for the one guests should use.</p>"
+      },
+      {
+        "h2": "Where to put it and how big to print",
+        "html": "<p>For a home, a card on the fridge or inside a picture frame in the guest room is enough. Short-term rentals usually put it in the welcome binder and on a small sign by the router. Cafés and offices print it at the counter and on table tents; a 3–4 cm code is comfortable to scan from a seated position.</p><p>Use the Rounded or Dots module style and your brand colours if you like, but keep strong contrast between foreground and background and leave the default quiet zone margin. Export at 600–1000 px for a business-card-size print; the PNG stays sharp at that size.</p><p>Remember the code is static. If you change the Wi-Fi password, the old code stops working and you need to generate and print a new one.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does a Wi-Fi QR code work on iPhone and Android?",
+        "a": "Yes. iOS 11 and later and Android 10 and later read Wi-Fi QR codes with the built-in camera app and offer a one-tap Join. Older Android phones may need a QR scanner app."
+      },
+      {
+        "q": "Is it safe to put my password in a QR code?",
+        "a": "The password is stored in plain text inside the code, so anyone who scans it can read it. Treat the printed code like the password itself: fine for guests, not for a public window. QRForge never uploads it."
+      },
+      {
+        "q": "Can I make a QR code for a hidden Wi-Fi network?",
+        "a": "Yes. Enable the Hidden network toggle. The code tells the phone to connect to the SSID even though it is not broadcast."
+      },
+      {
+        "q": "Why does the code scan but not connect?",
+        "a": "Almost always a typo in the SSID or password, or the wrong encryption type. Re-check them against the router label and regenerate."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-restaurant-menu",
+    "keyword": "qr code for restaurant menu",
+    "title": "QR Code for Restaurant Menu – Free Generator, No Expiry | QRForge",
+    "description": "Make a free QR code for your restaurant menu. Link to a PDF or web menu, add brand colors, download PNG or SVG for table tents and never pay a monthly fee. Static, never expires.",
+    "eyebrow": "QR codes · Restaurants",
+    "h1": "QR Code for a Restaurant Menu",
+    "tagline": "Put your menu on every table with a code that never expires and costs nothing per month.",
+    "intro": "<p>Most \"menu QR code\" services charge a subscription and route every scan through their servers; when you stop paying, the codes on your tables die. A static QR code from QRForge points straight to your menu URL. It is free, it works for as long as the page exists, and nobody sits between your guest and your menu.</p><p>Generate it in the browser, match the colours to your branding and download a PNG for table tents, window stickers and the front of the menu board.</p>",
+    "sections": [
+      {
+        "h2": "Set up the menu link before you make the code",
+        "html": "<p>The QR code is only as good as the page it opens, so get the destination right first:</p><ul><li><strong>Use a URL you control</strong> – a page on your own website (yourrestaurant.com/menu) or a stable link on your ordering platform. Avoid linking to a file in a chat app or a personal Drive that could be reorganised.</li><li><strong>Make it mobile-first</strong> – a web page beats a PDF. If you must use a PDF, keep it under 2 MB and in portrait, so it reads on a phone without pinching.</li><li><strong>Keep the URL short</strong> – shorter URLs make a simpler, faster-scanning code. If your menu URL is long, create a short redirect on your own domain.</li><li><strong>Plan for updates</strong> – because the code is static, change the menu on the page, not the link. The code keeps working.</li></ul><p>Paste the final URL into the URL tab with https:// included, then scan the preview with your phone to check it opens the right page.</p>"
+      },
+      {
+        "h2": "Printing it for tables, windows and takeaway",
+        "html": "<p>A table tent is scanned from 30–50 cm away, so a 3 cm code is enough; a window or A-frame sign scanned from the pavement wants 8–10 cm or more. Export at 1000 px for small prints, or use SVG (part of the one-time Pro upgrade) when a print shop asks for vector.</p><p>Keep the code dark on a light background. Brand colours are fine if the contrast stays high; a gold code on cream will frustrate guests. Leave the quiet-zone margin at the default and never print the code over a photo or textured paper. Add a short caption next to it, \"Scan for menu\", plus the plain URL for anyone whose phone camera is off.</p><p>Laminate table copies; a scratched or smudged code still scans thanks to error correction, but a worn one eventually will not.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will the menu QR code expire or need a subscription?",
+        "a": "No. QRForge codes are static: the URL is encoded in the pattern itself, so the code works for as long as your menu page is online. There is nothing to renew."
+      },
+      {
+        "q": "Can I update the menu without reprinting the codes?",
+        "a": "Yes, as long as you change the content at the same URL. Edit the page or replace the PDF at the same address and the existing codes keep opening it."
+      },
+      {
+        "q": "Can I add our logo in the middle of the code?",
+        "a": "Yes. The centre logo overlay is a Pro feature; it raises error correction to H automatically so the code still scans with the logo covering part of it."
+      },
+      {
+        "q": "Can I see how many people scanned the menu?",
+        "a": "Not from the code itself, since no scan passes through QRForge. Point the code at a short link with statistics on your own domain if you need counts."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-business-card",
+    "keyword": "qr code for business card",
+    "title": "QR Code for Business Cards – Free vCard Generator (Save Contact) | QRForge",
+    "description": "Create a free vCard QR code for your business card. Scanning opens Add Contact with your name, phone, email, company and website pre-filled. PNG or SVG export, nothing uploaded.",
+    "eyebrow": "QR codes · Business cards",
+    "h1": "QR Code for a Business Card",
+    "tagline": "Let people save your contact details with one scan instead of typing them from a card they will lose.",
+    "intro": "<p>A business card with a vCard QR code does something a plain card cannot: it puts you in someone's phone contacts in two seconds, spelled correctly, with your company and website attached. The vCard format is read natively by iPhone and Android cameras, which open \"Add contact\" with every field filled in.</p><p>QRForge builds the vCard in your browser for free. Your phone number and email are encoded locally and never sent to a server. Download a PNG for your card designer, or SVG with Pro for print-ready vector.</p>",
+    "sections": [
+      {
+        "h2": "What to put in the vCard, and what to leave out",
+        "html": "<p>Select the vCard tab and fill in the fields that matter:</p><ul><li><strong>Full name</strong> – as you want it to appear in contacts.</li><li><strong>Phone</strong> – in international format (+1 415 555 0123) so it dials correctly from abroad.</li><li><strong>Email</strong> and <strong>company</strong>.</li><li><strong>Website</strong> – your site or a LinkedIn profile URL.</li></ul><p>Every character you add makes the QR pattern denser and harder to scan at business-card size, so resist adding long job titles or a postal address. A five-field vCard scans comfortably at 2 cm; a bloated one may need 3 cm or more. If you need to share much more than this, link to a contact page on your website instead and use a URL QR code, which stays small no matter how much the page contains.</p>"
+      },
+      {
+        "h2": "Sizing, placement and print tips",
+        "html": "<p>Standard cards are 85 × 55 mm, which leaves room for a 18–22 mm code on the back. Keep the quiet-zone margin at the default: designers who crop it to fit the layout produce codes that scan intermittently. Avoid printing over gloss, foil or dark stock unless you invert the colours deliberately with a light foreground on a dark background and test it.</p><p>Choose error correction M for a plain code, or H if you add a centre logo (Pro). Export at 1000 px or as SVG so the print shop has more resolution than it needs. Before approving the print run, print one card on a desktop printer and scan it with two different phones; a code that only works on the designer's screen is a 500-card mistake.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What happens when someone scans a vCard QR code?",
+        "a": "Their camera app recognises the contact data and shows an Add Contact or Save Contact prompt with your name, phone, email, company and website already filled in. Nothing is downloaded and no app is needed."
+      },
+      {
+        "q": "Can I update my details after the cards are printed?",
+        "a": "No. The contact data is stored inside the code, so a changed phone number means a new code. If your details change often, link to an online contact page instead."
+      },
+      {
+        "q": "Is my contact information uploaded to QRForge?",
+        "a": "No. The vCard and the image are generated entirely in your browser. Nothing is stored or sent."
+      },
+      {
+        "q": "Can I add a photo to the vCard?",
+        "a": "Not in the QR code; an embedded photo would make the pattern far too dense to scan. Add a photo to your contact page or let recipients add one themselves."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-google-reviews",
+    "keyword": "qr code for google reviews",
+    "title": "QR Code for Google Reviews – Free Generator for Your Review Link | QRForge",
+    "description": "Create a free QR code for Google reviews. Find your Google Business review link, generate a branded code, print it at the counter or on receipts and get more 5-star reviews.",
+    "eyebrow": "QR codes · Google reviews",
+    "h1": "QR Code for Google Reviews",
+    "tagline": "Take customers straight to the review form while they are still happy and standing in your shop.",
+    "intro": "<p>Customers who say \"I'd happily leave a review\" rarely do, because finding your business on Google and locating the Write a review button takes six taps they forget by the car. A QR code that opens the review form directly removes every step except the stars. Businesses that put one at the till, on the invoice or on a table card see a steady increase in reviews within weeks.</p><p>QRForge makes the code free in your browser. Paste your review link, pick your colours and download a PNG for print.</p>",
+    "sections": [
+      {
+        "h2": "Finding your Google review link",
+        "html": "<p>You need the link that opens the review dialog, not your general Maps listing. To get it:</p><ol><li>Sign in to your <strong>Google Business Profile</strong> (search your business name on Google while logged in as the owner, or go to business.google.com).</li><li>Open the profile, choose <strong>Ask for reviews</strong> (sometimes shown as \"Get more reviews\").</li><li>Copy the short link, which looks like <em>g.page/r/XXXXXXXX/review</em>.</li></ol><p>Paste that into the URL tab of QRForge with https:// in front. Scan the preview and confirm it opens the review box with your business name and five empty stars. If it opens the Maps listing instead, you copied the listing URL, not the review link.</p><p>Do not use a Google Maps link with a search query; those break when Google changes its URL format, whereas the g.page review link is stable.</p>"
+      },
+      {
+        "h2": "Where to place it and what Google allows",
+        "html": "<p>The best moment to ask is right after a good experience: the counter, the receipt, the thank-you card in a delivery box, the back of a service van invoice, the mirror at a salon station. Add a caption such as \"Enjoyed your visit? Scan to leave a Google review – it takes 30 seconds\".</p><p>Two rules keep your listing safe. Google's policy prohibits offering money, discounts or gifts in exchange for reviews, and it prohibits \"review gating\" (asking happy customers only). A code that everyone can scan is fine; a code hidden until someone says something nice is not. Keep the code at 3 cm or more for counter cards and use high-contrast colours; your brand colour on white is fine, light grey on white is not.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the QR code work if the customer isn't logged in to Google?",
+        "a": "The link opens the review form; if they are not signed in, Google asks them to sign in first and then returns them to the review. Most phones are already signed in."
+      },
+      {
+        "q": "Will the review link change?",
+        "a": "The g.page review link stays the same for your Business Profile unless you create a new listing. Avoid longer Maps URLs, which Google reformats from time to time."
+      },
+      {
+        "q": "Can I offer a discount for scanning?",
+        "a": "You can thank customers, but Google's policy forbids rewarding reviews with discounts or gifts. Violations can get reviews removed or the profile suspended."
+      },
+      {
+        "q": "Can I put my logo on the review QR code?",
+        "a": "Yes. The logo overlay is part of the one-time Pro upgrade. Error correction is raised to H automatically so the code scans reliably with the logo in place."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-instagram",
+    "keyword": "qr code for instagram",
+    "title": "QR Code for Instagram – Free Generator for Your Profile Link | QRForge",
+    "description": "Make a free QR code for your Instagram profile. Link straight to instagram.com/yourhandle, match your brand colors and print it on packaging, flyers and shop windows.",
+    "eyebrow": "QR codes · Instagram",
+    "h1": "QR Code for Instagram",
+    "tagline": "Send people from your packaging, poster or window straight to your Instagram profile, with no searching and no misspelled handle.",
+    "intro": "<p>Telling customers to \"find us on Instagram\" loses most of them to the search box. A QR code that opens your profile directly turns a print touchpoint into a follow: product packaging, event banners, business cards, the shop door, a café's table card. On a phone with the Instagram app installed, the link opens in the app itself.</p><p>QRForge generates the code free in your browser. Use your brand colours, download a PNG, and reuse the same code everywhere since it never expires.</p>",
+    "sections": [
+      {
+        "h2": "Which Instagram link to use",
+        "html": "<p>Use your plain profile URL: <strong>https://www.instagram.com/yourhandle</strong>. It is short, it is permanent as long as you keep the handle, and it opens the app when it is installed. A few variants worth knowing:</p><ul><li><strong>A specific post or Reel</strong> – copy the link from the share menu (instagram.com/p/… or /reel/…). Good for a campaign, but the code becomes useless once the post is deleted.</li><li><strong>Instagram's own QR code</strong> – the app can generate one, but it is Instagram-styled, fixed in size and cannot be downloaded as a clean PNG or SVG for print.</li><li><strong>Link-in-bio pages</strong> – fine if you want to offer several destinations, but a direct profile link converts better for a single follow.</li></ul><p>Paste the URL in the URL tab, keep https://, and scan the preview on a phone with Instagram installed to confirm it opens in the app.</p>"
+      },
+      {
+        "h2": "Design tips that keep the code scannable",
+        "html": "<p>Instagram's gradient is tempting, but a QR code must be a single foreground colour on a single background with strong contrast. Pick one brand colour for the modules (a deep magenta or purple reads well) over white or a very pale tint, and choose the Rounded or Dots style for a softer look that matches social branding. A centre logo (Pro) with your profile picture or brand mark makes it instantly recognisable.</p><p>Size for the distance: 2 cm on packaging held in the hand, 5 cm on an A5 flyer, 10 cm or more on a poster or window. Add a short caption (\"@yourhandle – scan to follow\") so people know what they will get, and include the handle in text for anyone who prefers to type. Test with the Instagram app closed and open; both should land on your profile.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the QR code open the Instagram app or the website?",
+        "a": "On phones with Instagram installed, the profile link opens directly in the app. Without the app, it opens the profile in the browser."
+      },
+      {
+        "q": "What if I change my Instagram handle?",
+        "a": "The old URL stops working and the printed code with it. Pick your handle before printing, or link to a page on your own website that redirects to Instagram so you can update it later."
+      },
+      {
+        "q": "Can I use the Instagram logo on the QR code?",
+        "a": "Instagram's brand guidelines allow its glyph for referencing your presence on the platform, with some restrictions. Many businesses use their own logo in the centre instead to avoid any issue."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-wedding-invitations",
+    "keyword": "qr code for wedding invitations",
+    "title": "QR Code for Wedding Invitations – Free RSVP & Website Code | QRForge",
+    "description": "Create a free QR code for wedding invitations that opens your wedding website, RSVP form, registry or directions. Match your invitation colors and export print-ready PNG or SVG.",
+    "eyebrow": "QR codes · Weddings & events",
+    "h1": "QR Code for Wedding Invitations",
+    "tagline": "Give guests a one-scan path to your wedding website, RSVP form, registry and directions from the invitation itself.",
+    "intro": "<p>Paper invitations are still the moment, but RSVP cards, registry inserts and direction sheets add cost and get lost. One QR code on the invitation or a details card takes guests to a wedding website where they can RSVP, choose a meal, find the hotel block and see the registry. Elderly relatives still get the printed essentials; everyone else scans.</p><p>QRForge generates it free in your browser. Match the ink colour of your stationery, pick a softer dot style and download a PNG or SVG for your printer.</p>",
+    "sections": [
+      {
+        "h2": "What to link, and how to set it up",
+        "html": "<p>Link to one landing page that holds everything, rather than printing several codes:</p><ul><li><strong>Your wedding website</strong> (Zola, The Knot, Joy, a personal site) with RSVP, schedule, registry and travel on it. Use the site's short URL or a custom domain if you bought one.</li><li><strong>RSVP form only</strong> – a Google Form or the site's RSVP page, if that is the one action you need guests to take.</li><li><strong>Directions</strong> – a Google Maps link to the venue; useful on the day-of details card.</li></ul><p>Create the site and test it on a phone before generating the code. Publish it with the final URL, then paste that URL in the URL tab with https://. If the site is password-protected, print the password next to the code. Make a separate, plain code for the save-the-date if it goes out before the website is finished, or wait: a code that opens a \"coming soon\" page frustrates guests.</p>"
+      },
+      {
+        "h2": "Making it look like part of the stationery",
+        "html": "<p>Match the foreground colour to your invitation ink: navy, forest green, burgundy or charcoal all scan well on cream or white card. Avoid gold, blush or sage as the code colour; they lack contrast. Choose the Dots module style for an elegant feel and keep the default quiet zone. A small monogram in the centre (Pro feature) ties it to the suite.</p><p>Place the code on a details or RSVP card rather than the main invitation, at 2–2.5 cm, with a line such as \"Scan to RSVP by 1 August\" and the website address in text beneath it. Send your printer an SVG (Pro) or a 1000 px PNG; letterpress and foil can distort fine modules, so for those techniques use flat print for the code or go slightly larger. Print one proof and scan it before the full run.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should the QR code go on the invitation or a separate card?",
+        "a": "A separate details or RSVP card is the usual choice; it keeps the main invitation formal and gives the code enough space and a caption."
+      },
+      {
+        "q": "Can I change the wedding website after invitations are printed?",
+        "a": "Yes, as long as the URL stays the same. Update the RSVP deadline, schedule or registry on the site and the printed code keeps working."
+      },
+      {
+        "q": "Will older guests be able to use it?",
+        "a": "Most phones open QR codes with the built-in camera, but always include the website address in text and keep a printed RSVP option for guests who prefer it."
+      },
+      {
+        "q": "Can I use the same code for save-the-dates, invitations and thank-you cards?",
+        "a": "Yes. A static code pointing to your wedding website works on every piece of stationery, and you can update the site content for each stage."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-youtube-video",
+    "keyword": "qr code for youtube video",
+    "title": "QR Code for a YouTube Video or Channel – Free Generator | QRForge",
+    "description": "Make a free QR code for a YouTube video, channel or playlist. Use the short youtu.be link, add a timestamp, pick your colors and download a PNG for print, slides or packaging.",
+    "eyebrow": "QR codes · YouTube",
+    "h1": "QR Code for a YouTube Video",
+    "tagline": "Link a printed page, product box or slide to a YouTube video that opens in the app with one scan.",
+    "intro": "<p>Video explains things that paper cannot: how to assemble the product, what the course covers, how the recipe looks when it is done. A QR code on the instruction sheet, the packaging, a conference slide or a classroom handout opens the exact video, and on phones with YouTube installed it plays in the app. Teachers, product makers, musicians and trainers use it constantly.</p><p>QRForge makes the code free in your browser. Paste the video link, style it, and download a PNG that never expires.</p>",
+    "sections": [
+      {
+        "h2": "Getting the right YouTube link",
+        "html": "<p>YouTube offers several URLs for the same video. For a QR code, use the short one:</p><ul><li><strong>Video</strong> – click Share under the video and copy the <em>youtu.be/VIDEOID</em> link. It is shorter than the watch?v= form, which makes a simpler, faster-scanning code.</li><li><strong>Start at a timestamp</strong> – tick \"Start at\" in the Share dialog; the link gains ?t=90 and opens at that second. Useful when one long video covers several steps.</li><li><strong>Channel</strong> – use your handle URL, youtube.com/@yourchannel, for a code that promotes the whole channel.</li><li><strong>Playlist</strong> – copy the playlist link from its Share button; it is long, so expect a denser code and print it a little larger.</li></ul><p>Remove tracking parameters like ?si=… that the Share button sometimes appends; they add characters for nothing. Paste the cleaned link into the URL tab and scan the preview to confirm it plays the right video.</p>"
+      },
+      {
+        "h2": "Print, slides and video-end-screen use",
+        "html": "<p>On printed materials, size the code for the viewing distance: 2 cm on a product insert, 4–5 cm on a handout, 15 cm or more on a poster or trade-show banner. For presentations, put the code on a slide at 20% of the slide height so people at the back of the room can scan it from their seats, and leave it up for at least 15 seconds.</p><p>Use YouTube red as the foreground if you want the association, or your own brand colour; both scan well on white. Keep the video public or unlisted; a private video will show an error to everyone who scans. If you later replace the video, the old code will point at a removed video, so for content you expect to re-upload, link to a playlist or a page on your own site instead.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the code open the YouTube app or the browser?",
+        "a": "On phones with the YouTube app installed, a youtu.be or youtube.com link opens in the app. Otherwise it plays in the browser."
+      },
+      {
+        "q": "Can the video start at a specific time?",
+        "a": "Yes. Use the Start at option in YouTube's Share dialog, or add ?t=SECONDS to the youtu.be link, before generating the code."
+      },
+      {
+        "q": "Can I make a QR code for an unlisted video?",
+        "a": "Yes. Unlisted videos open for anyone with the link, including from a QR code. Private videos do not."
+      },
+      {
+        "q": "Can I count how many people scanned it?",
+        "a": "Not through the code, which is static. YouTube Analytics shows traffic sources, and a short link with statistics as the destination gives you scan counts."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "qr-code-for-pdf",
+    "keyword": "qr code for pdf",
+    "title": "QR Code for a PDF – Free Generator, Link Any Document | QRForge",
+    "description": "Create a free QR code that opens a PDF: menus, brochures, manuals, price lists or certificates. Learn where to host the file, how to get a direct link and how to make the code print-ready.",
+    "eyebrow": "QR codes · Documents",
+    "h1": "QR Code for a PDF",
+    "tagline": "Link a printed flyer, sign or product label to the full PDF, without emailing files or printing fifty pages.",
+    "intro": "<p>A QR code cannot contain a PDF; even a one-page file is far too large for the pattern. What it can do is open a link to a PDF hosted online, which is exactly what you want: the brochure, manual, spec sheet or price list opens on the phone the moment someone scans. The real work is hosting the file somewhere stable and getting a link that opens the document directly.</p><p>QRForge then generates the code free in your browser, in your colours, as a PNG or SVG ready for print.</p>",
+    "sections": [
+      {
+        "h2": "Hosting the PDF and getting a direct link",
+        "html": "<p>Choose a host that will still be there in two years, then set sharing so anyone with the link can view:</p><ul><li><strong>Your own website</strong> – upload the PDF and link to it (yourdomain.com/files/brochure.pdf). The most reliable option and the shortest URL.</li><li><strong>Google Drive</strong> – right-click the file, Share, set to \"Anyone with the link\", copy the link. Viewers see it in Drive's viewer, which works on any phone.</li><li><strong>Dropbox</strong> – create a share link; change the final <em>dl=0</em> to <em>dl=1</em> if you want it to download rather than preview.</li><li><strong>OneDrive, Box, Notion</strong> – all work with a public share link.</li></ul><p>Open the link in a private browser window to make sure it loads without signing in. Then paste it into the URL tab. Drive and Dropbox links are long and make a dense code; if you have a domain, create a short redirect (yourdomain.com/manual) and encode that instead.</p>"
+      },
+      {
+        "h2": "Keeping the code working when the PDF changes",
+        "html": "<p>Because the code is static, it points at the URL, not the file. On your own site, overwrite the PDF with the new version under the same filename and every printed code keeps opening the latest document. In Google Drive, right-click the file and choose \"Manage versions\" to upload a new version with the same link; uploading a new file creates a new link and breaks printed codes.</p><p>Keep the PDF small (under 3–5 MB) so it opens quickly on mobile data, and make the first page useful on a phone screen. For printing, a 3 cm code is fine on a flyer or product label; posters and signs scanned from a distance should be 8 cm or more. Add a caption telling people what the PDF is (\"Scan for full specifications\") and include the short URL in text as a fallback.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can a QR code store the PDF itself?",
+        "a": "No. A QR code holds at most about 3 KB of text, while even a tiny PDF is far larger. The code stores the link to the PDF, which must be hosted online."
+      },
+      {
+        "q": "Why does my Google Drive link ask people to sign in?",
+        "a": "The file's sharing is restricted. Open Share, change General access to \"Anyone with the link\" with Viewer rights, and test the link in a private window before generating the code."
+      },
+      {
+        "q": "Can I update the PDF after printing the QR code?",
+        "a": "Yes, if you replace the file at the same URL. Overwrite it on your site, or use Google Drive's Manage versions. A new upload with a new link will not work with existing codes."
+      },
+      {
+        "q": "Is the PDF uploaded to QRForge?",
+        "a": "No. QRForge only encodes the link you paste. The file stays wherever you host it and the code is generated in your browser."
+      }
+    ],
+    "query": ""
+  }
+]
