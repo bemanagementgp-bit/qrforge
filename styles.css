@@ -255,6 +255,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 
 
 
+
 /* ===== QRForge – app specific ===== */
 .card-title{font-size:1.1rem;margin:0 0 14px}
 .qr-workspace{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
