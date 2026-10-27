@@ -1,14 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://qrforge-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://qrforge-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://qrforge-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-business-card</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-business-card"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-business-card"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-google-reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-google-reviews"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-instagram"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-pdf</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-pdf"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-restaurant-menu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-restaurant-menu"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wedding-invitations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wedding-invitations"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-wifi</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-wifi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-wifi"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/es/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/pt/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/fr/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/de/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://qrforge-tool.vercel.app/it/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/terms"/>
+  </url>
 </urlset>

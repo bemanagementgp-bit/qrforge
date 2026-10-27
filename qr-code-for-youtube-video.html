@@ -16,7 +16,7 @@
   <meta name="twitter:title" content="QR Code for a YouTube Video or Channel – Free Generator | QRForge">
   <meta name="twitter:description" content="Make a free QR code for a YouTube video, channel or playlist. Use the short youtu.be link, add a timestamp, pick your colors and download a PNG for print.">
   <meta name="twitter:image" content="https://qrforge-tool.vercel.app/favicon.svg">
-  <meta name="theme-color" content="#f97316">
+  <meta name="theme-color" content="#050403">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,14 +26,26 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
   <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/consent.js"></script>
   <script src="/monetize.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"QR Code for a YouTube Video or Channel – Free Generator | QRForge","description":"Make a free QR code for a YouTube video, channel or playlist. Use the short youtu.be link, add a timestamp, pick your colors and download a PNG for print.","url":"https://qrforge-tool.vercel.app/qr-code-for-youtube-video","isPartOf":{"@type":"WebSite","name":"QRForge","url":"https://qrforge-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QRForge","item":"https://qrforge-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"QR Code for a YouTube Video","item":"https://qrforge-tool.vercel.app/qr-code-for-youtube-video"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does the code open the YouTube app or the browser?","acceptedAnswer":{"@type":"Answer","text":"On phones with the YouTube app installed, a youtu.be or youtube.com link opens in the app. Otherwise it plays in the browser."}},{"@type":"Question","name":"Can the video start at a specific time?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use the Start at option in YouTube's Share dialog, or add ?t=SECONDS to the youtu.be link, before generating the code."}},{"@type":"Question","name":"Can I make a QR code for an unlisted video?","acceptedAnswer":{"@type":"Answer","text":"Yes. Unlisted videos open for anyone with the link, including from a QR code. Private videos do not."}},{"@type":"Question","name":"Can I count how many people scanned it?","acceptedAnswer":{"@type":"Answer","text":"Not through the code, which is static. YouTube Analytics shows traffic sources, and a short link with statistics as the destination gives you scan counts."}}]}</script>
+  <!-- hreflang:start -->
+  <meta name="bm-langs" content="en,es,pt,fr,de,it">
+  <link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/qr-code-for-youtube-video">
+  <link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/qr-code-for-youtube-video">
+  <!-- hreflang:end -->
 </head>
 <body>
   <header class="site-header">
@@ -45,7 +57,7 @@
     </a>
     <nav class="nav" aria-label="Main">
       <details class="more-tools">
-        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <summary class="btn btn-ghost btn-sm" aria-label="More tools"><span class="mt-label">More tools</span> ▾</summary>
         <div class="menu">
           <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
           <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
@@ -59,14 +71,16 @@
           <a href="https://creativeresize-tool.vercel.app"><span class="mi">R</span>Creative Resize<small>Social formats</small></a>
           <a href="https://framelab-tool.vercel.app"><span class="mi">F</span>Frame Lab<small>Photo frames & mockups</small></a>
           <a href="https://giveaway-tool.vercel.app"><span class="mi">G</span>Giveaway Picker<small>Instagram giveaways</small></a>
+          <a href="https://iplookup-tool.vercel.app"><span class="mi">I</span>IP Lookup<small>IP lookup</small></a>
           <a href="https://sizeconverter-tool.vercel.app"><span class="mi">Z</span>Size Converter<small>Image & video resizer</small></a>
         </div>
       </details>
       <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
-      <button class="btn btn-sm hidden" id="installBtn" onclick="installApp()" title="Install this tool as an app">⤓ Install</button>
-      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
-      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+      <button class="btn btn-sm hidden" id="installBtn" data-action="install" title="Install this tool as an app">⤓ Install</button>
+      <span class="lang-switch"><select id="langSelect" aria-label="Language" translate="no"><option value="en">EN</option></select></span>
+      <button class="btn btn-primary btn-sm" data-action="pro" data-arg="nav">Pro</button>
+      <button class="btn icon-btn" data-action="theme" aria-label="Toggle theme">◐</button>
     </nav>
     </div>
   </div>
@@ -250,7 +264,7 @@
                   <span class="range-val"><span id="sizeValue">600</span> px</span>
                 </div>
                 <input id="sizeRange" type="range" min="200" max="1000" step="50" value="600">
-                <p class="hint" id="sizeMaxHint">Free up to 1000px · <a href="#" onclick="openPro('size');return false">Pro unlocks 4000px</a></p>
+                <p class="hint" id="sizeMaxHint">Free up to 1000px · <a href="#" data-action="pro" data-arg="size">Pro unlocks 4000px</a></p>
               </div>
               <div class="field">
                 <div class="row-between">
@@ -326,12 +340,12 @@
             <li>High-res export up to 4000px</li>
             <li>Batch generate from a list</li>
           </ul>
-          <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price></span> once</button>
+          <button class="btn btn-primary btn-block" data-action="pro" data-arg="sidebar">Get Pro – <span data-pro-price></span> once</button>
         </div>
       <div class="card lead-card" id="leadCard" hidden>
         <h3>QR ideas that convert</h3>
         <p class="hint">Practical QR marketing ideas, print tips and new free tools, once or twice a month.</p>
-        <form class="lead-form" onsubmit="return subscribeNewsletter(event)">
+        <form class="lead-form" data-action="newsletter">
           <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
           <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
           <button class="btn btn-primary" type="submit">Subscribe</button>
@@ -401,19 +415,20 @@
         <li><a href="https://creativeresize-tool.vercel.app">Creative Resize · Social formats</a></li>
         <li><a href="https://framelab-tool.vercel.app">Frame Lab · Photo frames & mockups</a></li>
         <li><a href="https://giveaway-tool.vercel.app">Giveaway Picker · Instagram giveaways</a></li>
+        <li><a href="https://iplookup-tool.vercel.app">IP Lookup · IP lookup</a></li>
         <li><a href="https://sizeconverter-tool.vercel.app">Size Converter · Image & video resizer</a></li>
       </ul>
     </div>
     <div class="footer-meta">
       <span>© <span data-year></span> Be Management · QRForge. Free QR code generator. Codes never expire.</span>
-      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+      <span><a href="/privacy" data-i18n-href="/privacy">Privacy</a> · <a href="/terms" data-i18n-href="/terms">Terms</a> · <a href="#" data-action="cookie-settings">Cookie settings</a> · <a href="https://www.bemanagement.pro" rel="noopener">bemanagement.pro</a></span>
     </div>
   </div>
 </footer>
 
   <div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
     <div class="card">
-      <button class="btn btn-sm close" onclick="closePro()" aria-label="Close">✕</button>
+      <button class="btn btn-sm close" data-action="close-pro" aria-label="Close">✕</button>
       <h3 id="proTitle">Upgrade to QRForge Pro <span class="pro-badge">LIFETIME</span></h3>
       <div class="price"><span id="proPrice"></span> <small>one-time</small></div>
       <ul>
@@ -423,9 +438,9 @@
         <li>Batch generate from a list</li>
         <li>Lifetime updates</li>
       </ul>
-      <button class="btn btn-primary btn-block" onclick="goCheckout()">Get Pro</button>
-      <p class="hint" style="margin-top:12px">Already purchased? <a href="#" onclick="document.getElementById('licenseRow').classList.toggle('hidden');return false">Enter license key</a></p>
-      <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key" aria-label="License key"><button class="btn" onclick="activateLicense(document.getElementById('licenseKey').value)">Activate</button></div>
+      <button class="btn btn-primary btn-block" data-action="checkout">Get Pro</button>
+      <p class="hint" style="margin-top:12px">Already purchased? <a href="#" data-action="toggle-license">Enter license key</a></p>
+      <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key" aria-label="License key"><button class="btn" data-action="activate-license">Activate</button></div>
     </div>
   </div>
   <script src="/app.js"></script>

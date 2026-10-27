@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR-Code-Generator kostenlos – eigene Farben, Logo, PNG &amp; SVG | QRForge</title>
+  <meta name="description" content="Erstelle kostenlose QR-Codes für URLs, Wi-Fi, vCards, E-Mail, Telefon und SMS. Eigene Farben, abgerundete Stile, Logo und Export als PNG oder SVG. Ohne Anmeldung, nichts wird hochgeladen.">
+  <link rel="canonical" href="https://qrforge-tool.vercel.app/de/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="QR-Code-Generator kostenlos – eigene Farben, Logo, PNG & SVG | QRForge">
+  <meta property="og:description" content="Erzeuge statische QR-Codes, die nie ablaufen. URL, Text, Wi-Fi, E-Mail, Telefon, SMS und vCard mit eigenen Farben, Punktstilen und Logo. Kostenlos, privat, in deinem Browser.">
+  <meta property="og:url" content="https://qrforge-tool.vercel.app/de/">
+  <meta property="og:site_name" content="QRForge">
+  <meta property="og:image" content="https://qrforge-tool.vercel.app/favicon.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="QR-Code-Generator kostenlos – QRForge">
+  <meta name="twitter:description" content="Eigene QR-Codes mit Farben, Logo und Export als PNG/SVG. Kostenlos, ohne Anmeldung, in deinem Browser erzeugt.">
+  <meta name="twitter:image" content="https://qrforge-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#050403">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QRForge">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"QRForge – QR-Code-Generator kostenlos","url":"https://qrforge-tool.vercel.app/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","description":"Kostenloser Online-QR-Code-Generator mit eigenen Farben, Modulstilen, Logo und Export als PNG/SVG. Unterstützt URL, Text, Wi-Fi, E-Mail, Telefon, SMS und vCard.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["QR-Codes für URL, Text, Wi-Fi, E-Mail, Telefon, SMS und vCard","Eigene Vorder- und Hintergrundfarben","Modulstile quadratisch, abgerundet und Punkte","PNG-Download und Kopieren in die Zwischenablage","Logo-Overlay, SVG-Export, Export in 4000px und Stapelerzeugung (Pro)"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ist dieser QR-Code-Generator wirklich kostenlos?","acceptedAnswer":{"@type":"Answer","text":"Ja. QR-Codes für URLs, Text, Wi-Fi, E-Mail, Telefon, SMS und vCards erstellen, Farben und Stile anpassen und PNG-Dateien bis 1000px herunterladen ist kostenlos, ohne Konto, ohne Wasserzeichen und ohne Limits. Pro ist ein optionaler Einmalkauf, der ein Logo-Overlay, SVG-Export, Exporte in 4000px und Stapelerzeugung freischaltet."}},{"@type":"Question","name":"Laufen mit QRForge erstellte QR-Codes ab?","acceptedAnswer":{"@type":"Answer","text":"Nein. QRForge erstellt statische QR-Codes: Dein Inhalt ist direkt im Muster kodiert, also funktioniert der Code für immer und hängt nicht von unseren Servern ab. Er hört nur auf zu funktionieren, wenn das Ziel selbst, etwa eine Website, offline geht."}},{"@type":"Question","name":"Kann ich meinem QR-Code ein Logo hinzufügen?","acceptedAnswer":{"@type":"Answer","text":"Ja, mit QRForge Pro. Lade ein PNG, JPG oder SVG hoch, und es wird auf einem Hintergrund mit Innenabstand in der Mitte des Codes platziert. Die Fehlerkorrektur wird automatisch auf H (30 % Wiederherstellung) erhöht, damit der Code trotz verdeckter Module scannbar bleibt."}},{"@type":"Question","name":"Darf ich die QR-Codes kommerziell nutzen?","acceptedAnswer":{"@type":"Answer","text":"Ja. Jeden QR-Code, den du erzeugst, darfst du für jeden Zweck nutzen, einschließlich Speisekarten, Verpackungen, Visitenkarten, Poster, Werbung und Produkte. Keine Quellenangabe nötig."}},{"@type":"Question","name":"Sollte ich PNG oder SVG herunterladen?","acceptedAnswer":{"@type":"Answer","text":"PNG ist ein Pixelbild, das überall funktioniert: Websites, Dokumente, Social Media und die meisten Druckaufträge. SVG ist ein Vektorformat, das in jeder Größe perfekt scharf bleibt und von Designern und Druckereien für große Formate wie Banner und Schilder bevorzugt wird. SVG-Export ist eine Pro-Funktion."}},{"@type":"Question","name":"Erfasst QRForge die Scans meines QR-Codes?","acceptedAnswer":{"@type":"Answer","text":"Nein. Da die Codes statisch sind und direkt auf deine Inhalte verweisen, läuft keine Anfrage über QRForge, wir können Scans also weder sehen noch zählen. Wenn du Scan-Statistiken brauchst, nutze einen URL-Kürzer mit Statistiken als Ziel deines QR-Codes."}}]}</script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/consent.js"></script>
+  <script src="/monetize.js"></script>
+  <!-- hreflang:start -->
+  <meta name="bm-langs" content="en,es,pt,fr,de,it">
+  <link rel="alternate" hreflang="en" href="https://qrforge-tool.vercel.app/">
+  <link rel="alternate" hreflang="es" href="https://qrforge-tool.vercel.app/es/">
+  <link rel="alternate" hreflang="pt" href="https://qrforge-tool.vercel.app/pt/">
+  <link rel="alternate" hreflang="fr" href="https://qrforge-tool.vercel.app/fr/">
+  <link rel="alternate" hreflang="de" href="https://qrforge-tool.vercel.app/de/">
+  <link rel="alternate" hreflang="it" href="https://qrforge-tool.vercel.app/it/">
+  <link rel="alternate" hreflang="x-default" href="https://qrforge-tool.vercel.app/">
+  <!-- hreflang:end -->
+  <meta property="og:locale" content="de_DE">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <div class="navbar">
+    <a class="brand" href="/de/" aria-label="QRForge Startseite">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QRForge</span><span class="brand-desc">QR-Code-Generator</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm" aria-label="Weitere Tools"><span class="mt-label">Weitere Tools</span> ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Rechnungen</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelancer-Stundensätze</small></a>
+          <a href="https://qrforge-tool.vercel.app" class="current"><span class="mi">Q</span>QRForge<small>QR-Codes</small></a>
+          <a href="https://squish-tool.vercel.app"><span class="mi">S</span>Squish<small>Bildkomprimierung</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Zinseszins</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP-Subnetze</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot-Mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat- & Post-Mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Karussell-Slides</small></a>
+          <a href="https://creativeresize-tool.vercel.app"><span class="mi">R</span>Creative Resize<small>Social-Media-Formate</small></a>
+          <a href="https://framelab-tool.vercel.app"><span class="mi">F</span>Frame Lab<small>Fotorahmen & Mockups</small></a>
+          <a href="https://giveaway-tool.vercel.app"><span class="mi">G</span>Giveaway Picker<small>Instagram-Gewinnspiele</small></a>
+          <a href="https://iplookup-tool.vercel.app"><span class="mi">I</span>IP Lookup<small>IP-Abfrage</small></a>
+          <a href="https://sizeconverter-tool.vercel.app"><span class="mi">Z</span>Size Converter<small>Bild- & Videogrößen ändern</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="brand-by">von <b>Be Management</b></span>
+      <button class="btn btn-sm hidden" id="installBtn" data-action="install" title="Installiere dieses Tool als App">⤓ Installieren</button>
+      <span class="lang-switch"><select id="langSelect" aria-label="Language" translate="no"><option value="en">EN</option></select></span>
+      <button class="btn btn-primary btn-sm" data-action="pro" data-arg="nav">Pro</button>
+      <button class="btn icon-btn" data-action="theme" aria-label="Design wechseln">◐</button>
+    </nav>
+    </div>
+  </div>
+</header>
+
+  <section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · QR-Codes</span>
+  <h1>QR-Code-Generator kostenlos</h1>
+  <p class="tagline">Verwandle einen Link, ein Wi-Fi-Netzwerk, eine Kontaktkarte oder einen Text in einen eigenen QR-Code mit deinen Farben und deinem Logo und lade ihn als PNG oder SVG herunter.</p>
+  <div class="badges">
+  <span class="badge">100 % kostenlos</span>
+  <span class="badge">Ohne Anmeldung</span>
+  <span class="badge">Läuft nie ab</span>
+  <span class="badge">Ohne Wasserzeichen</span>
+  <span class="badge">Funktioniert in deinem Browser</span>
+  </div>
+</section>
+
+  <main class="container">
+    <div class="tool-layout">
+      <div class="tool-main">
+        <div class="qr-workspace">
+          <div class="qr-controls">
+            <!-- Content -->
+            <section class="card" aria-labelledby="contentHeading">
+              <h2 id="contentHeading" class="card-title">1. Inhalt</h2>
+              <div class="type-tabs" role="tablist" aria-label="QR-Inhaltstyp">
+                <button class="type-tab active" role="tab" data-type="url" aria-selected="true" aria-controls="panel-url">URL</button>
+                <button class="type-tab" role="tab" data-type="text" aria-selected="false" aria-controls="panel-text">Text</button>
+                <button class="type-tab" role="tab" data-type="wifi" aria-selected="false" aria-controls="panel-wifi">Wi-Fi</button>
+                <button class="type-tab" role="tab" data-type="email" aria-selected="false" aria-controls="panel-email">E-Mail</button>
+                <button class="type-tab" role="tab" data-type="phone" aria-selected="false" aria-controls="panel-phone">Smartphone</button>
+                <button class="type-tab" role="tab" data-type="sms" aria-selected="false" aria-controls="panel-sms">SMS</button>
+                <button class="type-tab" role="tab" data-type="vcard" aria-selected="false" aria-controls="panel-vcard">vCard</button>
+              </div>
+
+              <div class="type-panel" id="panel-url" role="tabpanel" data-panel="url">
+                <div class="field">
+                  <label for="inUrl">Website-URL</label>
+                  <input id="inUrl" type="url" inputmode="url" placeholder="https://example.com" value="https://example.com" autocomplete="off" spellcheck="false">
+                  <p class="hint">Füge https:// hinzu, damit Smartphones den Link direkt im Browser öffnen.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-text" role="tabpanel" data-panel="text">
+                <div class="field">
+                  <label for="inText">Einfacher Text</label>
+                  <textarea id="inText" rows="4" placeholder="Any text: a message, a serial number, a coupon code…">Thanks for scanning! Enjoy 10% off with code SCAN10.</textarea>
+                  <p class="hint">Kürzerer Text ergibt einen einfacheren Code, der schneller scannt.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-wifi" role="tabpanel" data-panel="wifi">
+                <div class="grid-2">
+                  <div class="field">
+                    <label for="wifiSsid">Netzwerkname (SSID)</label>
+                    <input id="wifiSsid" type="text" placeholder="MeinHeimWiFi" value="GuestWiFi" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="wifiPass">Passwort</label>
+                    <input id="wifiPass" type="text" placeholder="Passwort" value="welcome2024" autocomplete="off" spellcheck="false">
+                  </div>
+                  <div class="field">
+                    <label for="wifiEnc">Verschlüsselung</label>
+                    <select id="wifiEnc">
+                      <option value="WPA" selected>WPA / WPA2 / WPA3</option>
+                      <option value="WEP">WEP</option>
+                      <option value="nopass">Keine (offenes Netzwerk)</option>
+                    </select>
+                  </div>
+                  <div class="field field-check">
+                    <label class="checkbox"><input id="wifiHidden" type="checkbox"> Verstecktes Netzwerk</label>
+                  </div>
+                </div>
+                <p class="hint">Gäste scannen den Code und sind sofort verbunden, ohne das Passwort einzutippen.</p>
+              </div>
+
+              <div class="type-panel hidden" id="panel-email" role="tabpanel" data-panel="email">
+                <div class="field">
+                  <label for="emailTo">E-Mail des Empfängers</label>
+                  <input id="emailTo" type="email" inputmode="email" placeholder="hallo@beispiel.de" value="hello@example.com" autocomplete="off">
+                </div>
+                <div class="field">
+                  <label for="emailSubject">Betreff (optional)</label>
+                  <input id="emailSubject" type="text" placeholder="Betreff" value="Question about your services">
+                </div>
+                <div class="field">
+                  <label for="emailBody">Nachricht (optional)</label>
+                  <textarea id="emailBody" rows="3" placeholder="Pre-filled message body">Hi, I scanned your QR code and would like to know more.</textarea>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-phone" role="tabpanel" data-panel="phone">
+                <div class="field">
+                  <label for="phoneNum">Telefonnummer</label>
+                  <input id="phoneNum" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 123 4567" autocomplete="off">
+                  <p class="hint">Nutze das internationale Format (+Ländervorwahl), damit es auch im Ausland funktioniert.</p>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-sms" role="tabpanel" data-panel="sms">
+                <div class="field">
+                  <label for="smsNum">Telefonnummer</label>
+                  <input id="smsNum" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 123 4567" autocomplete="off">
+                </div>
+                <div class="field">
+                  <label for="smsMsg">Nachricht (optional)</label>
+                  <textarea id="smsMsg" rows="3" placeholder="Pre-filled text message">Hi! I'd like to book an appointment.</textarea>
+                </div>
+              </div>
+
+              <div class="type-panel hidden" id="panel-vcard" role="tabpanel" data-panel="vcard">
+                <div class="grid-2">
+                  <div class="field">
+                    <label for="vcName">Vollständiger Name</label>
+                    <input id="vcName" type="text" placeholder="Max Mustermann" value="Jane Doe" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcPhone">Smartphone</label>
+                    <input id="vcPhone" type="tel" inputmode="tel" placeholder="+1 555 123 4567" value="+1 555 987 6543" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcEmail">E-Mail</label>
+                    <input id="vcEmail" type="email" inputmode="email" placeholder="max@beispiel.de" value="jane@example.com" autocomplete="off">
+                  </div>
+                  <div class="field">
+                    <label for="vcOrg">Firma (optional)</label>
+                    <input id="vcOrg" type="text" placeholder="Acme GmbH" value="Acme Inc." autocomplete="off">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="vcUrl">Website (optional)</label>
+                  <input id="vcUrl" type="url" inputmode="url" placeholder="https://example.com" value="https://example.com" autocomplete="off" spellcheck="false">
+                </div>
+                <p class="hint">Beim Scannen öffnet sich „Kontakt hinzufügen“ mit allen Feldern ausgefüllt (vCard 3.0).</p>
+              </div>
+            </section>
+
+            <!-- Design -->
+            <section class="card" aria-labelledby="designHeading">
+              <h2 id="designHeading" class="card-title">2. Design</h2>
+              <div class="grid-2">
+                <div class="field">
+                  <label for="fgColor">Vordergrundfarbe</label>
+                  <div class="color-row">
+                    <input id="fgColor" type="color" value="#0b0f17" aria-label="Farbwähler für den Vordergrund">
+                    <input id="fgHex" type="text" value="#0b0f17" maxlength="7" aria-label="Hex-Wert der Vordergrundfarbe" spellcheck="false">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="bgColor">Hintergrundfarbe</label>
+                  <div class="color-row">
+                    <input id="bgColor" type="color" value="#ffffff" aria-label="Farbwähler für den Hintergrund">
+                    <input id="bgHex" type="text" value="#ffffff" maxlength="7" aria-label="Hex-Wert der Hintergrundfarbe" spellcheck="false">
+                  </div>
+                  <label class="checkbox" style="margin-top:8px"><input id="transparentBg" type="checkbox"> Transparenter Hintergrund</label>
+                </div>
+              </div>
+              <div class="grid-2">
+                <div class="field">
+                  <label for="moduleStyle">Modulstil</label>
+                  <select id="moduleStyle">
+                    <option value="square" selected>Quadratisch (klassisch)</option>
+                    <option value="rounded">Abgerundet</option>
+                    <option value="dots">Punkte</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="ecLevel">Fehlerkorrektur</label>
+                  <select id="ecLevel">
+                    <option value="L">L – 7 % Wiederherstellung (am kleinsten)</option>
+                    <option value="M" selected>M – 15 % Wiederherstellung (empfohlen)</option>
+                    <option value="Q">Q – 25 % Wiederherstellung</option>
+                    <option value="H">H – 30 % Wiederherstellung (für Logos)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <div class="row-between">
+                  <label for="sizeRange" style="margin:0">Exportgröße</label>
+                  <span class="range-val"><span id="sizeValue">600</span> px</span>
+                </div>
+                <input id="sizeRange" type="range" min="200" max="1000" step="50" value="600">
+                <p class="hint" id="sizeMaxHint">Kostenlos bis 1000px · <a href="#" data-action="pro" data-arg="size">Pro schaltet 4000px frei</a></p>
+              </div>
+              <div class="field">
+                <div class="row-between">
+                  <label for="marginRange" style="margin:0">Rand (Ruhezone)</label>
+                  <span class="range-val"><span id="marginValue">4</span> Module</span>
+                </div>
+                <input id="marginRange" type="range" min="0" max="8" step="1" value="4">
+              </div>
+              <div class="field logo-field">
+                <label for="logoBtn">Logo in der Mitte <span class="pro-badge">PRO</span></label>
+                <div class="row">
+                  <button class="btn" id="logoBtn" type="button">Logo hochladen</button>
+                  <input id="logoInput" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" class="sr-only" tabindex="-1" aria-hidden="true">
+                  <span class="hint" id="logoName" style="margin:0">Kein Logo</span>
+                  <button class="btn btn-sm btn-ghost hidden" id="logoRemove" type="button" aria-label="Logo entfernen">Entfernen</button>
+                </div>
+                <p class="hint">PNG, JPG, SVG oder WebP. Die Fehlerkorrektur wechselt automatisch auf H.</p>
+              </div>
+            </section>
+
+            <!-- Batch (Pro) -->
+            <section class="card" aria-labelledby="batchHeading">
+              <h2 id="batchHeading" class="card-title">Stapel erzeugen <span class="pro-badge">PRO</span></h2>
+              <div class="field">
+                <label for="batchInput">Eine URL oder ein Text pro Zeile</label>
+                <textarea id="batchInput" rows="4" placeholder="https://example.com/product/1&#10;https://example.com/product/2&#10;Table 12"></textarea>
+                <p class="hint">Jede Zeile wird mit den aktuellen Design-Einstellungen zu einem PNG und automatisch heruntergeladen.</p>
+              </div>
+              <div class="row-between">
+                <button class="btn btn-primary" id="btnBatch" type="button">Alle erzeugen</button>
+                <span class="hint" id="batchStatus" style="margin:0"></span>
+              </div>
+            </section>
+          </div>
+
+          <!-- Preview -->
+          <div class="qr-preview-col">
+            <section class="card preview-card" aria-labelledby="previewHeading">
+              <h2 id="previewHeading" class="card-title">Vorschau</h2>
+              <div class="canvas-wrap" id="canvasWrap">
+                <canvas id="qrCanvas" width="600" height="600" role="img" aria-label="Vorschau des erzeugten QR-Codes"></canvas>
+              </div>
+              <p class="qr-meta" id="qrMeta"></p>
+              <p class="scan-hint" id="scanHint" role="status"></p>
+              <div class="actions">
+                <button class="btn btn-primary btn-block" id="btnPng" type="button">⬇ PNG herunterladen</button>
+                <div class="grid-2 tight">
+                  <button class="btn" id="btnSvg" type="button">SVG herunterladen <span class="pro-badge">PRO</span></button>
+                  <button class="btn" id="btnCopyImg" type="button">Bild kopieren</button>
+                </div>
+              </div>
+              <div class="encoded">
+                <div class="row-between">
+                  <label for="encodedContent" style="margin:0">Kodierter Inhalt</label>
+                  <button class="btn btn-sm btn-ghost" id="btnCopyContent" type="button">Kopieren</button>
+                </div>
+                <pre id="encodedContent" tabindex="0"></pre>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="ad-slot horizontal" data-slot="below-tool"></div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="ad-slot" data-slot="sidebar-1"></div>
+        <div class="card pro-card">
+          <h3>Pro holen <span class="pro-badge">LEBENSLANG</span></h3>
+          <ul>
+            <li>Füge dein Logo in der Mitte hinzu</li>
+            <li>SVG-Vektor-Download</li>
+            <li>Hochauflösender Export bis 4000px</li>
+            <li>Stapel aus einer Liste erzeugen</li>
+          </ul>
+          <button class="btn btn-primary btn-block" data-action="pro" data-arg="sidebar">Pro holen – einmalig <span data-pro-price></span></button>
+        </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>QR-Ideen, die konvertieren</h3>
+        <p class="hint">Praktische QR-Marketing-Ideen, Drucktipps und neue kostenlose Tools, ein- bis zweimal im Monat.</p>
+        <form class="lead-form" data-action="newsletter">
+          <input type="email" name="email" required placeholder="du@email.com" aria-label="E-Mail-Adresse" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Abonnieren</button>
+        </form>
+        <p class="hint tiny">Kein Spam. Jederzeit abbestellbar.</p>
+      </div>
+        <div class="ad-slot" data-slot="sidebar-2"></div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">Beliebte Einsatzmöglichkeiten von QRForge</h2>
+  <ul class="uses-grid">
+      <li><a href="/de/qr-code-for-wifi">QR-Code für Wi-Fi</a></li>
+      <li><a href="/de/qr-code-for-restaurant-menu">QR-Code für die Speisekarte eines Restaurants</a></li>
+      <li><a href="/de/qr-code-for-business-card">QR-Code für eine Visitenkarte</a></li>
+      <li><a href="/de/qr-code-for-google-reviews">QR-Code für Google-Rezensionen</a></li>
+      <li><a href="/de/qr-code-for-instagram">QR-Code für Instagram</a></li>
+      <li><a href="/de/qr-code-for-wedding-invitations">QR-Code für Hochzeitseinladungen</a></li>
+      <li><a href="/de/qr-code-for-youtube-video">QR-Code für ein YouTube-Video</a></li>
+      <li><a href="/de/qr-code-for-pdf">QR-Code für ein PDF</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+    <div class="features">
+      <div class="feature"><div class="ic">🎨</div><h3>Eigene Farben &amp; Stile</h3><p>Beliebige Vorder- und Hintergrundfarben, transparente PNGs und quadratische, abgerundete oder Punkt-Module passend zu deiner Marke.</p></div>
+      <div class="feature"><div class="ic">🔒</div><h3>Privat by Design</h3><p>Codes werden in deinem Browser erzeugt. Deine Links, Passwörter und Kontaktdaten verlassen nie dein Gerät.</p></div>
+      <div class="feature"><div class="ic">♾️</div><h3>Statisch &amp; dauerhaft</h3><p>Keine Weiterleitungen, kein Ablaufdatum, kein Abo. Der Code, den du heute herunterlädst, scannt in zehn Jahren genauso.</p></div>
+      <div class="feature"><div class="ic">📐</div><h3>Druckfertige Ausgabe</h3><p>Scharfes PNG bis 1000px kostenlos (4000px mit Pro) plus echtes Vektor-SVG für Banner, Verpackungen und Schilder.</p></div>
+    </div>
+
+    <h2>Was ist ein QR-Code und wie funktioniert er?</h2>
+    <p>Ein QR-Code (Quick Response) ist ein zweidimensionaler Barcode, der Text als Raster aus dunklen und hellen Quadraten speichert, den sogenannten Modulen. Die drei großen Quadrate in den Ecken sind Positionsmarken, die einer Kamera zeigen, wo der Code ist und wie er gedreht ist; die abwechselnden Linien dazwischen sind Taktmuster, die beim Ausmessen des Rasters helfen. Alles andere sind Daten und Informationen zur Fehlerkorrektur. Ein Standard-QR-Code kann bis zu 4,296 alphanumerische Zeichen enthalten, wobei kürzere Inhalte in der Praxis ein weniger dichtes Muster ergeben, das schneller scannt und kleiner gedruckt werden kann.</p>
+    <h3>Fehlerkorrektur erklärt</h3>
+    <p>QR-Codes enthalten redundante Reed-Solomon-Daten, sodass ein Scanner die Nachricht rekonstruieren kann, selbst wenn ein Teil des Codes verschmutzt, eingerissen oder verdeckt ist. Es gibt vier Stufen: <strong>L</strong> stellt etwa 7 % beschädigter Module wieder her, <strong>M</strong> 15 %, <strong>Q</strong> 25 % und <strong>H</strong> 30 %. Höhere Stufen machen den Code dichter, daher ist M für die meisten Zwecke die sinnvolle Standardeinstellung. Wenn du ein Logo in die Mitte setzt, verdeckst du absichtlich Module – deshalb schaltet QRForge automatisch auf Stufe H, sobald ein Logo aktiviert ist.</p>
+
+    <h2>Wofür Leute QR-Codes nutzen</h2>
+    <ul>
+      <li><strong>Speisekarten</strong> – ein URL-Code auf jedem Tisch öffnet die Speisekarte ohne App; aktualisiere die Seite, nicht den Code.</li>
+      <li><strong>Visitenkarten</strong> – ein vCard-Code speichert Name, Telefon, E-Mail und Firma mit einem Tipp in der Kontaktliste.</li>
+      <li><strong>Wi-Fi teilen</strong> – Gäste verbinden sich mit deinem Netzwerk, ohne ein Passwort einzutippen. Ideal für Cafés, Ferienwohnungen und Büros.</li>
+      <li><strong>Zahlungen und Spenden</strong> – verlinke eine Zahlungsseite oder einen Trinkgeldlink auf Theken, Rechnungen und Flyern.</li>
+      <li><strong>Produktverpackungen</strong> – verweise auf Handbücher, Garantieregistrierung, Echtheitsprüfungen oder Rezeptideen.</li>
+      <li><strong>Eventtickets und Poster</strong> – verlinke Anmeldeseiten, Kalendereinladungen, Karten oder Playlists.</li>
+    </ul>
+
+    <h2>Tipps für einen QR-Code, der immer scannt</h2>
+    <h3>Halte den Kontrast hoch</h3>
+    <p>Scanner suchen nach dunklen Modulen auf hellem Hintergrund. Dunkles Marineblau auf Weiß funktioniert; Hellgelb auf Weiß nicht. QRForge prüft den Kontrast zwischen deinen beiden Farben und warnt dich, wenn er zu gering ist. Vermeide invertierte Codes (helle Module auf dunklem Hintergrund), weil viele ältere Kamera-Apps sie nicht lesen können.</p>
+    <h3>Respektiere die Ruhezone</h3>
+    <p>Der leere Rand um den Code ist keine Dekoration. Die Spezifikation verlangt vier Module Freiraum auf jeder Seite, damit der Scanner das Muster von umgebenden Grafiken trennen kann. Verkleinere ihn nur, wenn der Code auf einem schlichten Hintergrund ohne etwas in der Nähe sitzt.</p>
+    <h3>Passe die Größe an die Scan-Entfernung an</h3>
+    <p>Eine nützliche Faustregel: Der gedruckte Code sollte mindestens ein Zehntel der Entfernung groß sein, aus der er gescannt wird. Ein Code auf einer Visitenkarte, der aus 30 cm gelesen wird, kann 3 cm breit sein; ein Poster, das aus 2 m gescannt wird, braucht einen Code von etwa 20 cm. Dichtere Codes (langer Text, hohe Fehlerkorrektur) brauchen etwas mehr Platz.</p>
+    <h3>Teste, bevor du druckst</h3>
+    <p>Scanne das finale Design mit mindestens zwei verschiedenen Smartphones, bei hellem und bei schwachem Licht, nachdem es auf dem echten Material platziert ist. Glänzende Laminate, gewölbte Oberflächen und Stoff verhalten sich alle anders als ein Bildschirm. Eine einzelne Testseite zu drucken, ist viel günstiger, als einen Stapel Speisekarten neu zu drucken.</p>
+
+    <h2>Statische vs. dynamische QR-Codes</h2>
+    <p>Ein <strong>statischer</strong> QR-Code kodiert deinen Inhalt direkt im Muster. Er ist für immer kostenlos, läuft nie ab, funktioniert offline und hängt nicht davon ab, dass irgendein Unternehmen weiter existiert. Seine einzige Einschränkung: Der Inhalt lässt sich nach dem Druck nicht mehr ändern – verlinke also eine Seite, die du selbst kontrollierst, wenn du Änderungen erwartest. Ein <strong>dynamischer</strong> QR-Code verweist dagegen auf eine kurze Weiterleitungs-URL, die einem Dienst gehört; der Dienst lässt dich das Ziel ändern und zählt Scans, verlangt aber meist eine Monatsgebühr, und der Code funktioniert nicht mehr, wenn das Abo endet oder der Anbieter schließt. QRForge erzeugt nur statische Codes: kein Tracking, keine Weiterleitungen und nichts, was bei uns gespeichert wird.</p>
+
+    <h2>Häufig gestellte Fragen</h2>
+    <div class="faq">
+      <details>
+        <summary>Ist dieser QR-Code-Generator wirklich kostenlos?</summary>
+        <p>Ja. QR-Codes für URLs, Text, Wi-Fi, E-Mail, Telefon, SMS und vCards erstellen, Farben und Stile anpassen und PNG-Dateien bis 1000px herunterladen ist kostenlos, ohne Konto, ohne Wasserzeichen und ohne Limits. Pro ist ein optionaler Einmalkauf, der ein Logo-Overlay, SVG-Export, Exporte in 4000px und Stapelerzeugung freischaltet.</p>
+      </details>
+      <details>
+        <summary>Laufen mit QRForge erstellte QR-Codes ab?</summary>
+        <p>Nein. QRForge erstellt statische QR-Codes: Dein Inhalt ist direkt im Muster kodiert, also funktioniert der Code für immer und hängt nicht von unseren Servern ab. Er hört nur auf zu funktionieren, wenn das Ziel selbst, etwa eine Website, offline geht.</p>
+      </details>
+      <details>
+        <summary>Kann ich meinem QR-Code ein Logo hinzufügen?</summary>
+        <p>Ja, mit QRForge Pro. Lade ein PNG, JPG oder SVG hoch, und es wird auf einem Hintergrund mit Innenabstand in der Mitte des Codes platziert. Die Fehlerkorrektur wird automatisch auf H (30 % Wiederherstellung) erhöht, damit der Code trotz verdeckter Module scannbar bleibt.</p>
+      </details>
+      <details>
+        <summary>Darf ich die QR-Codes kommerziell nutzen?</summary>
+        <p>Ja. Jeden QR-Code, den du erzeugst, darfst du für jeden Zweck nutzen, einschließlich Speisekarten, Verpackungen, Visitenkarten, Poster, Werbung und Produkte. Keine Quellenangabe nötig.</p>
+      </details>
+      <details>
+        <summary>Sollte ich PNG oder SVG herunterladen?</summary>
+        <p>PNG ist ein Pixelbild, das überall funktioniert: Websites, Dokumente, Social Media und die meisten Druckaufträge. SVG ist ein Vektorformat, das in jeder Größe perfekt scharf bleibt und von Designern und Druckereien für große Formate wie Banner und Schilder bevorzugt wird. SVG-Export ist eine Pro-Funktion.</p>
+      </details>
+      <details>
+        <summary>Erfasst QRForge die Scans meines QR-Codes?</summary>
+        <p>Nein. Da die Codes statisch sind und direkt auf deine Inhalte verweisen, läuft keine Anfrage über QRForge, wir können Scans also weder sehen noch zählen. Wenn du Scan-Statistiken brauchst, nutze einen URL-Kürzer mit Statistiken als Ziel deines QR-Codes.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>Eine Sammlung kostenloser, privater Tools, die komplett in deinem Browser laufen. QRForge ist der QR-Code-Generator der Familie, entwickelt und betreut von Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>Weitere kostenlose Tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Rechnungen</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelancer-Stundensätze</a></li>
+        <li><a href="https://qrforge-tool.vercel.app" class="current">QRForge · QR-Codes</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Bildkomprimierung</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Zinseszins</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP-Subnetze</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot-Mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat- &amp; Post-Mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Karussell-Slides</a></li>
+        <li><a href="https://creativeresize-tool.vercel.app">Creative Resize · Social-Media-Formate</a></li>
+        <li><a href="https://framelab-tool.vercel.app">Frame Lab · Fotorahmen &amp; Mockups</a></li>
+        <li><a href="https://giveaway-tool.vercel.app">Giveaway Picker · Instagram-Gewinnspiele</a></li>
+        <li><a href="https://iplookup-tool.vercel.app">IP Lookup · IP-Abfrage</a></li>
+        <li><a href="https://sizeconverter-tool.vercel.app">Size Converter · Bild- &amp; Video-Größenänderung</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QRForge. QR-Code-Generator kostenlos. Codes laufen nie ab.</span>
+      <span><a href="/de/privacy" data-i18n-href="/de/privacy">Datenschutz</a> · <a href="/de/terms" data-i18n-href="/de/terms">Nutzungsbedingungen</a> · <a href="#" data-action="cookie-settings">Cookie-Einstellungen</a> · <a href="https://www.bemanagement.pro" rel="noopener">bemanagement.pro</a></span>
+    </div>
+  </div>
+</footer>
+
+  <div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+    <div class="card">
+      <button class="btn btn-sm close" data-action="close-pro" aria-label="Schließen">✕</button>
+      <h3 id="proTitle">Upgrade auf QRForge Pro <span class="pro-badge">LEBENSLANG</span></h3>
+      <div class="price"><span id="proPrice"></span> <small>einmalig</small></div>
+      <ul>
+        <li>Füge dein Logo in der Mitte des Codes hinzu</li>
+        <li>SVG-Vektor-Download</li>
+        <li>Hochauflösender Export in 4000px</li>
+        <li>Stapel aus einer Liste erzeugen</li>
+        <li>Lebenslange Updates</li>
+      </ul>
+      <button class="btn btn-primary btn-block" data-action="checkout">Pro holen</button>
+      <p class="hint" style="margin-top:12px">Schon gekauft? <a href="#" data-action="toggle-license">Lizenzschlüssel eingeben</a></p>
+      <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="Lizenzschlüssel" aria-label="Lizenzschlüssel"><button class="btn" data-action="activate-license">Aktivieren</button></div>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -76,10 +76,21 @@
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return;
-      const s = JSON.parse(raw);
+      // Reviver drops prototype-polluting keys; localStorage is untrusted input.
+      const s = JSON.parse(raw, (k, v) => (k === '__proto__' || k === 'constructor' || k === 'prototype') ? undefined : v);
       if (s && typeof s === 'object') {
         if (TYPES.includes(s.type)) state.type = s.type;
-        if (s.fields && typeof s.fields === 'object') state.fields = s.fields;
+        if (s.fields && typeof s.fields === 'object') {
+          // Only known field ids with primitive values (strings capped) are restored.
+          const f = {};
+          FIELD_IDS.forEach((id) => {
+            if (!Object.prototype.hasOwnProperty.call(s.fields, id)) return;
+            const v = s.fields[id];
+            if (typeof v === 'boolean') f[id] = v;
+            else if (typeof v === 'string' || typeof v === 'number') f[id] = String(v).slice(0, PRO_MAX);
+          });
+          state.fields = f;
+        }
         if (isHex(s.fg)) state.fg = s.fg;
         if (isHex(s.bg)) state.bg = s.bg;
         state.transparent = !!s.transparent;
@@ -117,7 +128,7 @@
   }
   function escWifi(s) { return String(s).replace(/([\\;,":])/g, '\\$1'); }
   function escVcard(s) { return String(s).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1'); }
-  function escXml(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function escXml(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;'); }
   function slug(s) { return String(s).toLowerCase().replace(/^https?:\/\//, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'qr'; }
   function effectiveEc() { return (logo.img && isPro()) ? 'H' : state.ec; }
   function effectiveBg() { return state.transparent ? '#ffffff' : state.bg; }
@@ -450,7 +461,9 @@
     reader.onload = () => {
       const img = new Image();
       img.onload = () => {
-        logo = { img, dataUrl: reader.result, name: file.name };
+        const dataUrl = String(reader.result || '');
+        if (!/^data:image\//i.test(dataUrl)) { toast('Could not load that image'); return; }
+        logo = { img, dataUrl, name: file.name };
         el.logoName.textContent = file.name;
         el.logoRemove.classList.remove('hidden');
         toast('Logo added – error correction set to H');
@@ -528,7 +541,7 @@
     if (state.size > max) { state.size = max; el.sizeRange.value = String(max); el.sizeValue.textContent = String(max); }
     el.sizeMaxHint.innerHTML = pro
       ? 'Pro: export up to 4000px for large-format print.'
-      : 'Free up to 1000px · <a href="#" onclick="openPro(\'size\');return false">Pro unlocks 4000px</a>';
+      : 'Free up to 1000px · <a href="#" data-action="pro" data-arg="size">Pro unlocks 4000px</a>';
     document.querySelectorAll('.pro-badge').forEach((b) => {
       if (b.closest('#proModal') || b.closest('.pro-card')) return;
       b.classList.toggle('hidden', pro);
@@ -580,8 +593,8 @@
       el.canvasWrap.classList.toggle('checker', state.transparent);
       scheduleRender();
     });
-    el.moduleStyle.addEventListener('change', () => { state.style = el.moduleStyle.value; scheduleRender(); });
-    el.ecLevel.addEventListener('change', () => { state.ec = el.ecLevel.value; scheduleRender(); });
+    el.moduleStyle.addEventListener('change', () => { if (['square', 'rounded', 'dots'].includes(el.moduleStyle.value)) state.style = el.moduleStyle.value; scheduleRender(); });
+    el.ecLevel.addEventListener('change', () => { if (['L', 'M', 'Q', 'H'].includes(el.ecLevel.value)) state.ec = el.ecLevel.value; scheduleRender(); });
     el.sizeRange.addEventListener('input', () => {
       state.size = +el.sizeRange.value; el.sizeValue.textContent = String(state.size); scheduleRender();
     });
